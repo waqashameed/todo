@@ -1,38 +1,50 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.app {
+  background-image: linear-gradient(120deg, #65e5f6 0%, #02161b 100%);
+  color: black;
+  padding: 30px;
+  height: 100vh;
+  align-items: center;
+  
+}
+.app header{
+  font-size: 24px;
+  padding: 5px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todo-list {
+  background: #b7dadb;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todo {
+  background: rgb(213, 234, 238);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  border-radius: 3px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
