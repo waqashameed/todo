@@ -6,7 +6,7 @@ const Todo = ({todo, index, completeTodo, deleteTodo}) => {
         >
             {todo.text}
             <div>
-                <i onClick = {() => completeTodo(index)} style={{color: "green", padding: '10px'}} class="fa fa-check"></i>
+                <i onClick = {() => completeTodo(index)} style={{color: "green"}} class="fa fa-check"></i>
                 <i onClick = {() => deleteTodo(index)} style={{color: "red"}} class="fa fa-trash"></i>
             </div>
         </div>

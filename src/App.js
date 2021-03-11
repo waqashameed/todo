@@ -44,7 +44,7 @@ function App() {
     <div className="app">
       
       <div className="todo-list">
-      <header>Khaplu's Todo List</header>
+      <header style={{fontSize: '40px'}}>Khaplu's Todo List</header>
         {todos.map((todo, index) => (
           <Todo key={index} index={index} todo={todo} completeTodo={completeTodo} deleteTodo={deleteTodo} />
         ))}

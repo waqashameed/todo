@@ -29,18 +29,30 @@
   background: rgb(213, 234, 238);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
   padding: 3px 10px;
-  font-size: 12px;
+  font-size: 18px;
   margin-bottom: 6px;
   border-radius: 3px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  word-wrap    : break-word;
+  overflow-wrap: break-word;
 }
 
 .todo:hover {
   box-shadow: 3px 5px 7px rgba(0,0,0,0.5);
-}
+  transform: scale(1.05);
 
+}
+.todo i {
+  padding: 10px;
+  font-size: 20px;
+}
+.todo i:hover {
+  box-shadow: 3px 5px 7px rgba(0,0,0,0.5);
+  
+  transform: scale(1.2);
+}
 
 .input {
   width: 100%;
